@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Calculator;
+    src: url(../font/Calculator.ttf);
+}
+body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+     }
+    
+    center {
+         text-align: center;
+    }
+    
+h1 {
+    color: #f5f5f5;
+}
+
+form {
+     margin-top: 2em;
+}
+   
+    table {
+        border: 4px solid #ba55d3;
+        border-collapse: collapse;
+        width: 300px;
+        margin: 0 auto;
+}   
+    
+td {
+   padding: 10px;
+   text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-family: "Calculator.ttf";
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}    
+    
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #9370db;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover {
+    background-color: #dda0dd;
+}
